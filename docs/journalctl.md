@@ -21,8 +21,6 @@ I'm kind of annoyed at how bad the walking spaces in Helsinki are. Like sure, if
 
 I've *really* enjoyed my new boots. I got ordered the Aipi 2.2 and they're not only a treat to walk on, but also look great! I got the brown ones and I'm already considering getting the black ones, although one size smaller. The current ones I got are an EU 45, my size and fit me perfectly with boot socks. If I got the black ones, I'd get them a size smaller so they'd be perfect in everyday wear without boot socks. I don't regret my size 45 ones, because I actually want to use boot socks on long treks and they are also nearly perfect with gel insoles. (which is how I'm running them right now)
 
-![Picture of me wearing them](../images/boots.jpg)
-
 ## Onto the journal
 
 | Week start | Week end | Kilometers walked | Thoughts  
