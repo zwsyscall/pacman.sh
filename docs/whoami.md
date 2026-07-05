@@ -10,4 +10,6 @@ I'm not a good programmer by any means, but I like tinkering with things and rev
 
 Nice tangent that doesn't really anwer the question of who I am. Well, in short, I'm in my early twenties, **Finnish**. I'm a full-time employed system specialist and in my free time I'm interested in reverse engineering, lower level 'shenanigans' and OSINT. I'm *not* particularly talented in any of these, but I make an active effort to better myself and learn more. I'm able to sit down and study something I'm really interested in for hours without a break, which is my 'superpower'. I also ~~own~~ live with a cat, [Jorge](https://jorge-a-day.fi/). He is my beautiful scaredy cat.
 
-Aside from sitting at my computer, I enjoy 'marching', travelling abroad and mindfulness.
+Aside from sitting at my computer, I enjoy 'marching', travelling abroad and mindfulness. 
+
+<sup>Contact: ben(at)pacman.sh | [Github](https://github.com/zwsyscall) </sub>
