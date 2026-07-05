@@ -8,7 +8,7 @@ Over time, I might edit or remove posts if I think some of them are innapropriat
 
 ## FAQ
 - Who are you?
-    - Read the [whoami](#whoami.md)
+    - Read the [whoami](#whoami)
 
 - Can I purchase this website?
     - Maybe? I've had this domain for a while and use it for email so unless it's a life changing amount of money, no.
