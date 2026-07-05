@@ -80,6 +80,44 @@
             padding-bottom: 5px;
         }
 
+        details {
+            margin-bottom: 10px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1.05rem;
+            color: rgb(45, 211, 45);
+            padding: 5px 0;
+            border-bottom: 1px solid rgb(45, 211, 45);
+            list-style: none;
+            user-select: none;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary::before {
+            content: "▶";
+            display: inline-block;
+            margin-right: 8px;
+            font-size: 0.7rem;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        details[open] summary::before {
+            transform: rotate(90deg);
+        }
+
+        .folder-content {
+            padding-left: 12px;
+            border-left: 1px dashed rgb(45, 211, 45);
+            margin-left: 4px;
+            margin-top: 5px;
+        }
+
         .post-link {
             display: block;
             padding: 10px 0;
@@ -193,7 +231,6 @@
         }
 
         @media (max-width: 768px) {
-
             #menu {
                 position: relative;
                 top: 0;
@@ -239,7 +276,7 @@
 <body>
 
     <div id="menu">
-        <h2>help</h2>
+        <h2>ls /</h2>
         <div id="nav-links"></div>
     </div>
 
@@ -261,16 +298,50 @@
 
             const nav = document.getElementById('nav-links');
 
+            const folders = { root: [] };
             globalPosts.forEach(post => {
+                const folder = post.folder || 'root';
+                if (!folders[folder]) folders[folder] = [];
+                folders[folder].push(post);
+            });
+
+            const createLink = (post) => {
                 const link = document.createElement('a');
                 link.href = `#${post.id}`;
                 link.className = 'post-link';
-
                 const dateObj = new Date(post.date);
                 const formattedDate = dateObj.toLocaleDateString(undefined, { year: 'numeric', month: '2-digit', day: '2-digit' });
-
                 link.innerHTML = `<strong>> ${post.title}</strong><span class="post-date">[${formattedDate}]</span>`;
-                nav.appendChild(link);
+                return link;
+            };
+
+            folders.root.forEach(post => {
+                nav.appendChild(createLink(post));
+            });
+
+            Object.keys(folders).forEach(folderName => {
+                if (folderName === 'root') return;
+
+                const details = document.createElement('details');
+
+                const currentHash = window.location.hash.substring(1);
+                if (folders[folderName].some(p => p.id === currentHash)) {
+                    details.open = true;
+                }
+
+                const summary = document.createElement('summary');
+                summary.textContent = `/${folderName}/`;
+
+                const folderContent = document.createElement('div');
+                folderContent.className = 'folder-content';
+
+                folders[folderName].forEach(post => {
+                    folderContent.appendChild(createLink(post));
+                });
+
+                details.appendChild(summary);
+                details.appendChild(folderContent);
+                nav.appendChild(details);
             });
 
             handleRoute();
@@ -310,7 +381,14 @@
 
         function handleRoute() {
             const hash = window.location.hash.substring(1);
-            const post = globalPosts.find(p => p.id === hash) || globalPosts[0];
+
+            let post;
+            if (hash) {
+                post = globalPosts.find(p => p.id === hash);
+            } else {
+                post = globalPosts.find(p => p.id === 'readme') || globalPosts[0];
+            }
+
             if (post) {
                 loadPost(post.file);
             } else {
