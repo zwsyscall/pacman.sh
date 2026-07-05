@@ -1,4 +1,4 @@
-# README
+# readme
 ### This website serves as a collection and blog for random thoughts I have
 I primarily use this domain for email, so I'll try to be *somewhat* professional.
 
@@ -8,7 +8,7 @@ Over time, I might edit or remove posts if I think some of them are innapropriat
 
 ## FAQ
 - Who are you?
-    - Read the whoami
+    - Read the [whoami](whoami.md)
 
 - Can I purchase this website?
     - Maybe? I've had this domain for a while and use it for email so unless it's a life changing amount of money, no.
