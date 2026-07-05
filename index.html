@@ -1,54 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<link href="styles/main.css" rel="stylesheet"/>
-<link href="styles/card.css" rel="stylesheet"/>
+
 <head>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman.sh</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            background-color: #000;
+            background-image: url("images/stars2.png");
+            font-family: 'source-code-pro', 'Courier New', monospace;
+            color: rgb(45, 211, 45);
+            margin: 0;
+            padding: 0;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        li {
+            color: rgb(45, 211, 45);
+        }
+
+        a {
+            color: rgb(116, 255, 116);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 25%;
+            height: auto;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        #menu {
+            background: #2f3136;
+            position: fixed;
+            border-radius: 5px;
+            padding: 12px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            width: 9.5%;
+            max-width: 190px;
+            min-width: 190px;
+            top: 50px;
+            left: 50px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        #menu h2 {
+            margin-top: 15px;
+            font-size: 1.2rem;
+            border-bottom: 1px solid rgb(45, 211, 45);
+            padding-bottom: 5px;
+        }
+
+        .post-link {
+            display: block;
+            padding: 10px 0;
+            border-bottom: 1px dashed rgb(45, 211, 45);
+        }
+
+        .post-date {
+            font-size: 0.8rem;
+            color: rgb(45, 211, 45);
+            display: block;
+            opacity: 0.7;
+            margin-top: 4px;
+        }
+
+        #content-wrapper {
+            margin-left: 280px;
+            margin-top: 50px;
+            max-width: 98%;
+            padding-right: 20px;
+            padding-bottom: 50px;
+        }
+
+        #content {
+            max-width: 800px;
+            line-height: 1.6;
+        }
+
+        pre {
+            background: #1a1a1a;
+            padding: 15px;
+            border: 1px solid rgb(45, 211, 45);
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: inherit;
+        }
+    </style>
+</head>
+
 <body>
+
     <div id="menu">
-        <h1>
-            >Pacman.sh
-        </h1>
-        <p>
-            [guest@Arch ~]$ ls <br>
-            
-            <a href="index.html">>Index/</a><br>
-
-            <a href="projects.html">Projects/</a><br>
-
-            <a href="about.html">About/</a><br>
-
-            <a href="https://github.com/Chalkybot/">Github/</a><br>
-            [guest@Arch ~]$ <p1 class="blinkme">█</p1> 
-        </p>
+        <h2>ls /</h2>
+        <div id="nav-links"></div>
     </div>
-<div id="card">
-<pre>
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃                                                                                                              ┃
-┃                                                                                                              ┃
-┃       ooooooooo.                                                                            oooo             ┃
-┃       `888   `Y88.                                                                          `888             ┃
-┃        888   .d88'  .oooo.    .ooooo.  ooo. .oo.  .oo.    .oooo.   ooo. .oo.        .oooo.o  888 .oo.        ┃
-┃        888ooo88P'  `P  )88b  d88' `"Y8 `888P"Y88bP"Y88b  `P  )88b  `888P"Y88b      d88(  "8  888P"Y88b       ┃
-┃        888          .oP"888  888        888   888   888   .oP"888   888   888      `"Y88b.   888   888       ┃
-┃        888         d8(  888  888   .o8  888   888   888  d8(  888   888   888  .o. o.  )88b  888   888       ┃
-┃       o888o        `Y888""8o `Y8bod8P' o888o o888o o888o `Y888""8o o888o o888o Y8P 8""888P' o888o o888o      ┃
-┃                                                                                                              ┃
-┃                                                                                                              ┃
-┃                                                                                                              ┃
-┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓                                  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃                                     ┃              █████▄              ┃                                     ┃
-┃                                     ┃             ███▄█▀               ┃                                     ┃
-┃               Mail                  ┃            ▐████                 ┃     <i>An idiot admires complexity,</i>    ┃
-┃            ben@pacman.sh            ┃             █████▄               ┃     <i>a genius admires simplicity.</i>    ┃
-┃                                     ┃              ▀████▀              ┃                                     ┃
-┃                                     ┃                                  ┃                                     ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 
-</pre>  
-<p2><i>psst... </i>consider doing <p3>curl https://pacman.sh/card</p3></p2>
-</div>
+    <div id="content-wrapper">
+        <div id="content">Initializing...</div>
+    </div>
+
+    <script>
+        let globalPosts = [];
+
+        async function init() {
+            try {
+                const res = await fetch('metadata.json');
+                globalPosts = await res.json();
+            } catch (err) {
+                document.getElementById('content').innerHTML = "<h1>Error: missing metadata.json</h1><p>Did the GitHub Action run successfully?</p>";
+                return;
+            }
+
+            const nav = document.getElementById('nav-links');
+
+            globalPosts.forEach(post => {
+                const link = document.createElement('a');
+                link.href = `#${post.id}`;
+                link.className = 'post-link';
+
+                const dateObj = new Date(post.date);
+                const formattedDate = dateObj.toLocaleDateString(undefined, { year: 'numeric', month: '2-digit', day: '2-digit' });
+
+                link.innerHTML = `<strong>> ${post.title}</strong><span class="post-date">[${formattedDate}]</span>`;
+                nav.appendChild(link);
+            });
+
+            handleRoute();
+        }
+
+        async function loadPost(file) {
+            document.getElementById('content').innerHTML = "<p>Loading module...</p>";
+            const res = await fetch(file);
+            const md = await res.text();
+            document.getElementById('content').innerHTML = marked.parse(md);
+        }
+
+        function handleRoute() {
+            const hash = window.location.hash.substring(1);
+            const post = globalPosts.find(p => p.id === hash) || globalPosts[0];
+            if (post) {
+                loadPost(post.file);
+            } else {
+                document.getElementById('content').innerHTML = "<h1>404: Post not found</h1>";
+            }
+        }
+
+        window.addEventListener('hashchange', handleRoute);
+
+        init();
+    </script>
 </body>
-<img src="images/moon.png">
+
+</html>
