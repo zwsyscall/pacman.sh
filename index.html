@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pacman.sh</title>
+    <title>pamac</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         body {
@@ -32,17 +32,17 @@
             text-decoration: underline;
         }
 
-        a:hover {
-            text-decoration: underline;
+        pre {
+            background: #1a1a1a;
+            padding: 15px;
+            border: 1px solid rgb(45, 211, 45);
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 1rem;
         }
 
-        img {
-            width: 25%;
-            height: auto;
-            position: fixed;
-            bottom: 0px;
-            right: 0px;
-            z-index: 10;
+        code {
+            font-family: inherit;
         }
 
         #menu {
@@ -111,17 +111,50 @@
             margin-bottom: 1.2rem;
         }
 
-        pre {
-            background: #1a1a1a;
-            padding: 15px;
-            border: 1px solid rgb(45, 211, 45);
-            border-radius: 5px;
-            overflow-x: auto;
-            font-size: 1rem;
+        img {
+            width: 25%;
+            height: auto;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            z-index: 10;
         }
 
-        code {
-            font-family: inherit;
+        @media (max-width: 768px) {
+
+            #menu {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: calc(100% - 40px);
+                max-width: none;
+                margin: 20px;
+                box-sizing: border-box;
+                max-height: 250px;
+            }
+
+            #content-wrapper {
+                margin-left: 0;
+                margin-top: 20px;
+                padding: 0 20px 60px 20px;
+            }
+
+            #content h1 {
+                font-size: 1.8rem;
+            }
+
+            #content h2 {
+                font-size: 1.4rem;
+            }
+
+            #content p,
+            #content li {
+                font-size: 1.05rem;
+            }
+
+            img {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -171,6 +204,10 @@
             const res = await fetch(file);
             const md = await res.text();
             document.getElementById('content').innerHTML = marked.parse(md);
+
+            if (window.innerWidth <= 768) {
+                document.getElementById('content-wrapper').scrollIntoView({ behavior: 'smooth' });
+            }
         }
 
         function handleRoute() {
@@ -184,7 +221,6 @@
         }
 
         window.addEventListener('hashchange', handleRoute);
-
         init();
     </script>
 </body>
