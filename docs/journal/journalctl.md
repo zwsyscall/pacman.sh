@@ -1,6 +1,6 @@
 # journalctl
 
-<sub><sub> Last updated: `6.7.2026` </sub></sub>
+<sub><sub> Last updated: `7.7.2026` </sub></sub>
 
 This entry serves as an 'ever updating' journal entry on my exercising to at least try to keep me accountable. Knowing me I'll probably keep this up for a month at best but y'know, if you never try, you never do succeed.
 
@@ -34,3 +34,13 @@ I've *really* enjoyed my new boots. I got ordered the Aipi 2.2 and they're not o
 
 ![boots](images/boots.jpg)
 
+### 7.7.2026
+I changed to walking with my barefoot shoes. The boots need to rest after use, and I don't like how the walking matt "dyes" the bottom of the soles after walking on it. This is happening because the matt heats up, or so I think. Same issue persists on the barefoot shoes but they're easier to manage, because taking them off doesn't take 30 minutes!
+
+I hit \~`22km` yesterday, today I'm planning on hitting the big `30km`. Ambitious, I know. I want to push myself hard now in the beginning, so I can settle in on a lesser routine after this intense period is over. Besides, I don't really have anything to do aside from walking right now anyways, so 'it's whatever' as I'm often prone to saying.
+I've got a doctor's appointment in a month, at which point I'd like to have hit a significantly lower bf% by. Not that it matters, but it's a concrete date and it's at least tangentially related to why I'm going in. ![spoilers](https://static2.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/e1/44/Ku2LdUkl.gif)
+
+
+Kind of interesting, I get the most enjoyment out of walking if I'm listening to music and thinking or writing. What I initially pictured was me consuming shows and movies to pass the time, but these mental tasks are probably a better way to pass time whilst walking. Something something, feelings.
+
+Overall I'm actually kind of excited to see how long I can keep my motivation up for, how much better at walking I can get and how much I can lower my bf% by. 
