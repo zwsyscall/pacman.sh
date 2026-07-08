@@ -26,10 +26,7 @@ How do I fix the hole I've inadvertently dug myself into? Slowly. Much like tryi
 But hey, maybe I wake up tomorrow and it all clicks into place. Unlikely but you never know.
 
 ---
-<sub><sub>1. I don't mean the law, just the norms. You ought not steal, kill, cheat and so on.</sub></sub>
-
-<sub><sub>2. By should, I don't mean "I ought to" but more so that I'm somewhat surprised I don't feel much connection to. </sub></sub>
-
-<sub><sub>3. I'm not necessarily gay, but it's hard to explain and I kind of find it meaningless to spend hours trying to find some term for this when people would be just as confused. I just default to calling myself gay or bi because it's right about 80% of the time.</sub></sub>
-
+<sub><sub>1. I don't mean the law, just the norms. You ought not steal, kill, cheat and so on.</sub></sub>  
+<sub><sub>2. By should, I don't mean "I ought to" but more so that I'm somewhat surprised I don't feel much connection to. </sub></sub>  
+<sub><sub>3. I'm not necessarily gay, but it's hard to explain and I kind of find it meaningless to spend hours trying to find some term for this when people would be just as confused. I just default to calling myself gay or bi because it's right about 80% of the time.</sub></sub>  
 <sub><sub>4. I realise that this reads as a "I'm going to become a girl", I'm not. I don't feel like a girl. </sub></sub>
