@@ -21,6 +21,10 @@ Like I've said a few times in other writings, I think this era of conformity is 
 During my last relationship, I was *much* more open about every aspect of myself than I've ever been with another person. To actually open up about my deepest feelings for the first time and simultaneously be understood and accepted opened up a pandora's box of "what ifs"<sub><sub>4</sub></sub>. This and the relationship coming to an abrupt end have largely fueled this introspection because I am not happy with who I am, simply put. I do not look at myself and think "yeah that's who I am". I've always felt this way but up until now, I've just kind of pushed it away. In the words of Gösta Sundqvist, [*Olen nyt jo turtunut tuskan tunteeseen*](https://youtu.be/PQkn1MfMWB8?si=3wBYXCdQoTfFSb_P&t=130). <sub><sub>*I've already become numb to the feeling of agony*</sub></sub>  
 As yet another sidenote, The Leevi and the Leavings discography has so many great quips and quotes. There's enough (relatable) material to power Finnish culture for years to come.
 
+How do I fix the hole I've inadvertently dug myself into? Slowly. Much like trying out a hipster look on a random Thursday in elementary school, changes as large as this ought to come slowly and not feel forced or too fast. It might be the case that one day I wake up and realise that I'm happy being who I am. All I really know now is that I need to start making a slow but concerted effort to become the version of myself I'm happy with. I can't just be the me who my folks and friends are happy with; given I have at least some stream of consciousness, I (probably) deserve happiness myself.
+
+But hey, maybe I wake up tomorrow and it all clicks into place. Unlikely but you never know.
+
 ---
 <sub><sub>1. I don't mean the law, just the norms. You ought not steal, kill, cheat and so on.</sub></sub>
 
