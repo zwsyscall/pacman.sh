@@ -1,6 +1,6 @@
 # journalctl
 
-<sub><sub> Last updated: `7.7.2026` </sub></sub>
+<sub><sub> Last updated: `9.7.2026` </sub></sub>
 
 This entry serves as an 'ever updating' journal entry on my exercising to at least try to keep me accountable. Knowing me I'll probably keep this up for a month at best but y'know, if you never try, you never do succeed.
 
@@ -44,3 +44,11 @@ I've got a doctor's appointment in a month, at which point I'd like to have hit 
 Kind of interesting, I get the most enjoyment out of walking if I'm listening to music and thinking or writing. What I initially pictured was me consuming shows and movies to pass the time, but these mental tasks are probably a better way to pass time whilst walking. Something something, feelings.
 
 Overall I'm actually kind of excited to see how long I can keep my motivation up for, how much better at walking I can get and how much I can lower my bf% by. 
+
+### 9.7.2026
+
+I survived the `30km`! I was very pleased with myself. I'm kind of surprised by how little it affected me the next day, I still figured to only walk `10km` the day after, so I wouldn't risk injuring myself.  
+I've added a proper (bodyweight) workout routine along with my walking now, because I want to get more toned and I fear just becoming (more) skinnyfat if I walk but don't ensure that my muscle mass doesn't wither away. Scary thoughts! I've doubled my protein intake which feels surprisingly easy to hit. Who knew just eating chicken, eggs and cottage cheese would be high protein *and* low fat. I also actually like the food so I'm not complaining.
+
+I'm still on target to hit the `100km`, originally I was actually on track to hit `20km` a day this week, but I've chosen to *not* do that. If I want to get the most out of my exercising, I should avoid walking often `15km` a day, every day. According to what I read at least, it pumps up my cortisol which makes burning fat harder, as such, I'm burning more muscle. By incorporating the proper workout routine to do every other day, I can ensure that I'm at least maintaining my muscle mass and not burning it.  
+I think right now, the game plan is to hit >`20km` on days where I don't do an additional workout routine, then `10km` - `15km` or so on the days that I do. This way I'm at least hitting `10km` a day so my cardio is improving and I should technically be maintaining my muscle mass.
