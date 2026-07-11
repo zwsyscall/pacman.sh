@@ -17,6 +17,7 @@ At the time of writing, I am in a pit of depression. This has motivated me to ta
 | -- | -- | -- | -- |
 | 22.06.2026 | 28.06.2026 | 42.97km | Fell into a pit of despair this week, which motivated me to start (also hence the low distance)
 | 29.06.2026 | 05.07.2026 | 89.7km | I want to start hitting at least 100km a week. I also want to walk 40km in a day at some point
+| 06.07.2026 | 12.07.2026 | 104.2km | A lot of variety in how much I walked day by day. I couldn't walk on Saturday due to a massive blister
 | -- | -- | -- | -- |
 
 
