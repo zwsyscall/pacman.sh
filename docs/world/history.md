@@ -2,7 +2,9 @@
 ```bash
 for i in $(seq $(history 1 | awk '{print $1}') -1 2013); do history -d $i; done
 ```
+
 ---
+
 It's 2012, and you're outside with your friends. It's warm but not too warm, and it's the last night of summer break. You dread going back to school tomorrow and already can't wait for the next summer vacation. School sucks!
 
 Little do you know, this will be the last summer night with your friends without an omnipresent being peering in on what you're doing, no Big Brother always watching, making sure to document your amazing and, more importantly, embarrassing moments.
