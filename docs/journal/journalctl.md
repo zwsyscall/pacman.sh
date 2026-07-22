@@ -1,6 +1,6 @@
 # journalctl
 
-<sub><sub> Last updated: `9.7.2026` </sub></sub>
+<sub><sub> Last updated: `22.7.2026` </sub></sub>
 
 This entry serves as an 'ever updating' journal entry on my exercising to at least try to keep me accountable. Knowing me I'll probably keep this up for a month at best but y'know, if you never try, you never do succeed.
 
@@ -18,6 +18,7 @@ At the time of writing, I am in a pit of depression. This has motivated me to ta
 | 22.06.2026 | 28.06.2026 | 42.97km | Fell into a pit of despair this week, which motivated me to start (also hence the low distance)
 | 29.06.2026 | 05.07.2026 | 89.7km | I want to start hitting at least 100km a week. I also want to walk 40km in a day at some point
 | 06.07.2026 | 12.07.2026 | 104.2km | A lot of variety in how much I walked day by day. I couldn't walk on Saturday due to a massive blister
+| 13.07.2026 | 20.07.2026 | 29.9km | I am slightly sick, this sucks. |
 | -- | -- | -- | -- |
 
 
@@ -53,3 +54,7 @@ I've added a proper (bodyweight) workout routine along with my walking now, beca
 
 I'm still on target to hit the `100km`, originally I was actually on track to hit `20km` a day this week, but I've chosen to *not* do that. If I want to get the most out of my exercising, I should avoid walking often `15km` a day, every day. According to what I read at least, it pumps up my cortisol which makes burning fat harder, as such, I'm burning more muscle. By incorporating the proper workout routine to do every other day, I can ensure that I'm at least maintaining my muscle mass and not burning it.  
 I think right now, the game plan is to hit >`20km` on days where I don't do an additional workout routine, then `10km` - `15km` or so on the days that I do. This way I'm at least hitting `10km` a day so my cardio is improving and I should technically be maintaining my muscle mass.
+
+### 22.07.2026
+I'm sick! I'm only slightly sick, but it's severely hindering my ability to workout and walk. I'm exhausted after 10kms.  
+I've been here and done this one too many times, I will not push myself and forgo exercising till I'm better again. This sucks.
